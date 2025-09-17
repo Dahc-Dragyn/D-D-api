@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+sentence-transformers
+faiss-cpu # Or faiss-gpu
+langchain-core >= 0.1.0 # Check for appropriate minimum version if needed
+langchain-community >= 0.0.20 # Check for appropriate minimum version if needed
+pytest
+requests

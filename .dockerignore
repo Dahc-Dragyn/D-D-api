@@ -1,0 +1,30 @@
+# .dockerignore
+
+# Ignore the virtual environment
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Git directory
+.git/
+
+# Ignore IDE/Editor specific files
+.vscode/
+.idx/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore the zipped index if present (we only need the directory)
+faiss_index.zip
+test_api.py
+deployedapi.py
+
+# Add any other files or directories you don't want in the container
+# e.g., local logs, temporary files, documentation drafts
+*.log
+*.tmp
